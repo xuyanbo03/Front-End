@@ -1,0 +1,220 @@
+.Mountain1 {
+    width: 374px;
+    height: 326px;
+    position: absolute;
+    top: 35px;
+    left: 790px;
+    transform: scale(1.5);
+}
+
+.Mountain2 {
+    width: 374px;
+    height: 326px;
+    position: absolute;
+    top: 1px;
+    left: 732px;
+    transform: scale(1);
+}
+
+.Mountain3 {
+    width: 374px;
+    height: 326px;
+    position: absolute;
+    top: -60px;
+    left: 707px;
+    transform: scale(0.8);
+}
+
+.Mountain4 {
+    width: 374px;
+    height: 326px;
+    position: absolute;
+    top: -86px;
+    left: 670px;
+    transform: scale(0.5);
+}
+
+.Grass {
+    position: absolute;
+    width: 156px;
+    height: 100px;
+    top: 334px;
+    left: 800px;
+}
+
+.road {
+    height: 100px;
+    width: 800px;
+    background-color: #3e3e3e;
+    position: absolute;
+    top: 433px;
+    left: 0px;
+}
+
+.Leaf1 {
+    border-right: 10px solid green;
+    width: 80px;
+    height: 100px;
+    border-bottom-right-radius: 100px 100px;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 60px;
+}
+
+.Leaf2 {
+    border-left: 8px solid green;
+    width: 80px;
+    height: 100px;
+    border-bottom-left-radius: 100px 100px;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+.Leaf3 {
+    border-right: 6px solid #006900;
+    width: 40px;
+    height: 80px;
+    border-bottom-right-radius: 96px 107px;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 67px;
+}
+
+.Leaf4 {
+    border-left: 9px solid #319200;
+    width: 70px;
+    height: 60px;
+    border-bottom-left-radius: 120px 109px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40px;
+}
+
+.Leaf5 {
+    border-right: 9px solid #44C716;
+    width: 70px;
+    height: 72px;
+    border-bottom-right-radius: 100px 138px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 28px;
+    left: 65px;
+}
+
+.Leaf6 {
+    border-left: 9px solid #42B77E;
+    width: 64px;
+    height: 60px;
+    border-bottom-left-radius: 115px 139px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40px;
+    left: 11px;
+}
+
+.Leaf7 {
+    border-right: 9px solid #2BCE49;
+    width: 39px;
+    height: 60px;
+    border-bottom-right-radius: 79px 139px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40px;
+    left: 78px;
+}
+
+.Peak1 {
+    border-top: 100px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+.Peak2 {
+    border-top: 100px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 36px;
+    left: 100px;
+}
+
+.Peak2 {
+    border-top: 100px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 36px;
+    left: 100px;
+}
+
+.Peak3 {
+    border-top: 80px solid transparent;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 80px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 105px;
+    left: 73px;
+}
+
+.Peak4 {
+    border-top: 100px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 86px;
+    left: 83px;
+}
+
+.Peak5 {
+    border-top: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -9px;
+    left: 119px;
+}
+
+.Peak6 {
+    border-top: 150px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 21px;
+    left: 95px;
+}
+
+.Peak7 {
+    border-top: 50px solid transparent;
+    border-left: 35px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid white;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 130px;
+    left: 162px;
+}

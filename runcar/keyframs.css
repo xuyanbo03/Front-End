@@ -1,0 +1,107 @@
+@-webkit-keyframes BoxRotate {
+    16% {
+        -webkit-transform: rotateY(-90deg) rotateZ(135deg);
+    }
+    33% {
+        -webkit-transform: rotateY(-90deg) rotateX(135deg);
+    }
+    50% {
+        -webkit-transform: rotateY(225deg) rotateZ(135deg);
+    }
+    66% {
+        -webkit-transform: rotateY(135deg) rotateX(135deg);
+    }
+    83% {
+        -webkit-transform: rotateX(135deg);
+    }
+}
+
+
+/*Grass*/
+
+@-webkit-keyframes Grass {
+    0% {
+        -webkit-transform: translateX(0px);
+    }
+    100% {
+        -webkit-transform: translateX(-1000px);
+    }
+}
+
+
+/*Mountain*/
+
+@-webkit-keyframes Mountain1 {
+    0% {
+        -webkit-transform: translateX(0px) scale(1.5);
+    }
+    100% {
+        -webkit-transform: translateX(-1250px) scale(1.5);
+    }
+}
+
+@-webkit-keyframes Mountain2 {
+    0% {
+        -webkit-transform: translateX(0px) scale(1);
+    }
+    100% {
+        -webkit-transform: translateX(-1250px) scale(1);
+    }
+}
+
+@-webkit-keyframes Mountain3 {
+    0% {
+        -webkit-transform: translateX(0px) scale(0.8);
+    }
+    100% {
+        -webkit-transform: translateX(-1250px) scale(0.8);
+    }
+}
+
+@-webkit-keyframes Mountain4 {
+    0% {
+        -webkit-transform: translateX(0px) scale(0.5);
+    }
+    100% {
+        -webkit-transform: translateX(-1250px) scale(0.5);
+    }
+}
+
+
+/*Car*/
+
+@-webkit-keyframes Car {
+    0% {
+        -webkit-transform: translateY(0px) translateX(0.5px);
+    }
+    33% {
+        -webkit-transform: translateY(0.5px) translateX(0px);
+    }
+    66% {
+        -webkit-transform: translateY(0px) translateX(-0.5px);
+    }
+    100% {
+        -webkit-transform: translateY(-0.5px) translateX(0px);
+    }
+}
+
+
+/*轮子*/
+
+@-webkit-keyframes WheelRight {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@-webkit-keyframes WheelLeft {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+    }
+}

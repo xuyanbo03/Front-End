@@ -1,0 +1,57 @@
+.box {
+    /*旋转*/
+    /*-webkit-animation:BoxRotate 3s ease-in-out infinite;*/
+    -webkit-animation-name: BoxRotate;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    /*动画旋转基准*/
+    -webkit-transform-origin: 400px 400px 0;
+    /*开启3D*/
+    -webkit-transform-style: preserve-3d;
+    /*观察基角度*/
+    -webkit-perspective: 886;
+    -webkit-perspective-origin: 121px 54px;
+}
+
+.Grass {
+    -webkit-animation: Grass 2s linear infinite;
+    /*-webkit-animation-name: Grass;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;*/
+}
+
+.Car {
+    -webkit-animation: Car 0.2s linear infinite;
+    -webkit-perspective: 886;
+    -webkit-perspective-origin: 121px 54px;
+}
+
+.WheelRight {
+    -webkit-animation: WheelRight 0.2s linear infinite;
+}
+
+.WheelLeft {
+    -webkit-animation: WheelRight 0.2s linear infinite;
+}
+
+.Mountain1 {
+    -webkit-animation: Mountain1 20s linear infinite;
+}
+
+.Mountain2 {
+    -webkit-animation: Mountain2 40s linear infinite;
+}
+
+.Mountain3 {
+    -webkit-animation: Mountain3 60s linear infinite;
+}
+
+.Mountain4 {
+    -webkit-animation: Mountain4 80s linear infinite;
+}
+
+.Mountain5 {
+    -webkit-animation: Mountain5 120s linear infinite;
+}
