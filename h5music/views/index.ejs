@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+  </head>
+  <body>
+    <header>
+    	<h1><%= title %></h1>
+    	<ul class="type" id="type">
+    		<li data-type="dot">Dot</li>
+    		<li data-type="column" class="selected">Column</li>
+    	</ul>
+    	<p>
+    		Volume
+    		<input type="range" name="volume" id="volume" min="0" max="100" value="60">
+    	</p>
+    </header>
+    <div class="left">
+    	<ul id="list">
+    		<% music.forEach(function(name){ %>
+				<li class="" title="<%= name %>"><%= name %></li>
+    		<% }) %>
+    	</ul>
+    </div>
+    <div class="right" id="box"></div>
+    <!-- <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="/javascripts/index.js"></script>
+  </body>
+</html>
